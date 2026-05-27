@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0,fruits=1": { "model": "abnormalfruits:block/plum_plant1" },
+    "age=0,fruits=2": { "model": "abnormalfruits:block/plum_plant2" },
+    "age=0,fruits=3": { "model": "abnormalfruits:block/plum_plant3" },
+    "age=1,fruits=1": { "model": "abnormalfruits:block/plum_plant_blooming1" },
+    "age=1,fruits=2": { "model": "abnormalfruits:block/plum_plant_blooming2" },
+    "age=1,fruits=3": { "model": "abnormalfruits:block/plum_plant_blooming3" },
+    "age=2,fruits=1": { "model": "abnormalfruits:block/plum_plant_fruit1" },
+    "age=2,fruits=2": { "model": "abnormalfruits:block/plum_plant_fruit2" },
+    "age=2,fruits=3": { "model": "abnormalfruits:block/plum_plant_fruit3" }
+  }
+}

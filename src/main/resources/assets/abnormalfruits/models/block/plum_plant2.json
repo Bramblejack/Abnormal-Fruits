@@ -1,0 +1,65 @@
+{	"parent": "block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"particle": "abnormalfruits:block/plum",
+		"plum": "abnormalfruits:block/plum"
+	},
+	"elements": [
+		{
+			"name": "plant1",
+			"from": [6.5, 14, 11.5],
+			"to": [12.5, 16, 11.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [9.5, 15, 11.5]},
+			"faces": {
+				"north": {"uv": [10, 14, 16, 16], "texture": "#plum"},
+				"south": {"uv": [10, 14, 16, 16], "texture": "#plum"}
+			}
+		},
+		{
+			"name": "plant2",
+			"from": [6.5, 14, 11.5],
+			"to": [12.5, 16, 11.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [9.5, 15, 11.5]},
+			"faces": {
+				"north": {"uv": [10, 14, 16, 16], "texture": "#plum"},
+				"south": {"uv": [10, 14, 16, 16], "texture": "#plum"}
+			}
+		},
+		{
+			"name": "plant1",
+			"from": [2.5, 14, 4.5],
+			"to": [8.5, 16, 4.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [5.5, 15, 4.5]},
+			"faces": {
+				"north": {"uv": [10, 14, 16, 16], "texture": "#plum"},
+				"south": {"uv": [10, 14, 16, 16], "texture": "#plum"}
+			}
+		},
+		{
+			"name": "plant2",
+			"from": [2.5, 14, 4.5],
+			"to": [8.5, 16, 4.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.5, 15, 4.5]},
+			"faces": {
+				"north": {"uv": [10, 14, 16, 16], "texture": "#plum"},
+				"south": {"uv": [10, 14, 16, 16], "texture": "#plum"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "plum1",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "plum2",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

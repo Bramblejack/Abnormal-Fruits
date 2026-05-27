@@ -1,0 +1,86 @@
+{	"render_type": "minecraft:cutout",
+	"parent": "block/block",
+	"textures": {
+		"particle": "abnormalfruits:block/cherries",
+		"cherries": "abnormalfruits:block/cherries"
+	},
+	"elements": [
+		{
+			"name": "leaf1",
+			"from": [9, 12, 4.5],
+			"to": [12, 16, 4.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, -0.75, 4.5]},
+			"faces": {
+				"north": {"uv": [3, 12, 0, 16], "texture": "#cherries"},
+				"south": {"uv": [0, 12, 3, 16], "texture": "#cherries"}
+			}
+		},
+		{
+			"name": "stem1",
+			"from": [11.5, 12, 4],
+			"to": [11.5, 16, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, -0.75, 4.5]},
+			"faces": {
+				"east": {"uv": [2, 12, 3, 16], "texture": "#cherries"},
+				"west": {"uv": [2, 13, 3, 16], "texture": "#cherries"}
+			}
+		},
+		{
+			"name": "cherry1",
+			"from": [9.5, 8, 2.5],
+			"to": [13.5, 12, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, -1.75, 5]},
+			"faces": {
+				"north": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"east": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"south": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"up": {"uv": [8, 0, 12, 4], "texture": "#cherries"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#cherries"}
+			}
+		},
+		{
+			"name": "leaf2",
+			"from": [3, 12, 10.5],
+			"to": [6, 16, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, -0.75, 10.5]},
+			"faces": {
+				"north": {"uv": [3, 12, 0, 16], "texture": "#cherries"},
+				"south": {"uv": [0, 12, 3, 16], "texture": "#cherries"}
+			}
+		},
+		{
+			"name": "stem2",
+			"from": [5.5, 12, 10],
+			"to": [5.5, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, -0.75, 10.5]},
+			"faces": {
+				"east": {"uv": [2, 12, 3, 16], "texture": "#cherries"},
+				"west": {"uv": [2, 12, 3, 16], "texture": "#cherries"}
+			}
+		},
+		{
+			"name": "cherry2",
+			"from": [3.5, 8, 8.5],
+			"to": [7.5, 12, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, -1.75, 11]},
+			"faces": {
+				"north": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"east": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"south": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#cherries"},
+				"up": {"uv": [8, 0, 12, 4], "texture": "#cherries"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#cherries"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "cherry",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

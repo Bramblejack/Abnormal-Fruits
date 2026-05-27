@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0,fruits=1": { "model": "abnormalfruits:block/cherries_plant_flowering1" },
+    "age=0,fruits=2": { "model": "abnormalfruits:block/cherries_plant_flowering2" },
+    "age=1,fruits=1": { "model": "abnormalfruits:block/cherries_plant_unripe1" },
+    "age=1,fruits=2": { "model": "abnormalfruits:block/cherries_plant_unripe2" },
+    "age=2,fruits=1": { "model": "abnormalfruits:block/cherries_plant_fruit1" },
+    "age=2,fruits=2": { "model": "abnormalfruits:block/cherries_plant_fruit2" }
+  }
+}

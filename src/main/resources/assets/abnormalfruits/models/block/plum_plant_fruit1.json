@@ -1,0 +1,52 @@
+{	"parent": "block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"particle": "abnormalfruits:block/plum",
+		"plum": "abnormalfruits:block/plum"
+	},
+	"elements": [
+		{
+			"name": "leaf",
+			"from": [5.5, 14, 8],
+			"to": [8.5, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, -0.75, 8]},
+			"faces": {
+				"north": {"uv": [3, 14, 0, 16], "texture": "#plum"},
+				"south": {"uv": [0, 14, 3, 16], "texture": "#plum"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [8, 14, 7.5],
+			"to": [8, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, -0.75, 8]},
+			"faces": {
+				"east": {"uv": [2, 14, 3, 16], "texture": "#plum"},
+				"west": {"uv": [2, 14, 3, 16], "texture": "#plum"}
+			}
+		},
+		{
+			"name": "plum",
+			"from": [5.5, 9, 5.5],
+			"to": [10.5, 14, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, -0.75, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 5, 10], "texture": "#plum"},
+				"east": {"uv": [0, 5, 5, 10], "texture": "#plum"},
+				"south": {"uv": [0, 5, 5, 10], "texture": "#plum"},
+				"west": {"uv": [0, 5, 5, 10], "texture": "#plum"},
+				"up": {"uv": [0, 0, 5, 5], "texture": "#plum"},
+				"down": {"uv": [5, 0, 10, 5], "texture": "#plum"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "plum1",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
